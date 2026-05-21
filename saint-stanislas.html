@@ -11,7 +11,7 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="fr_CA">
 <meta property="og:site_name" content="Soumission Toiture QC">
-<meta property="article:modified_time" content="2026-05-17">
+<meta property="article:modified_time" content="2026-05-21">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Prix Toiture Saint-Stanislas | Refection & Reparation | Soumission Toiture QC">
 <meta name="twitter:description" content="Couvreurs residentiels a Saint-Stanislas — soumissions gratuites, entrepreneurs RBQ verifies. Reponse garantie en 24h.">
@@ -809,6 +809,25 @@ if (_form) {
       if (merci) merci.classList.add('active');
       _updateDots(_totalSteps + 1);
       if (typeof gtag !== 'undefined') {
+        gtag('event', 'lead_qualifie', {event_category: 'lead', event_label: 'Saint-Stanislas', event_value: 1});
+      }
+    }).catch(function() { _form.submit(); });
+  });
+}
+
+/* Masquer sticky bar au scroll vers le formulaire */
+var _stickyBar = document.getElementById('sticky-bar');
+if (_stickyBar) {
+  var _formEl = document.getElementById('formulaire');
+  window.addEventListener('scroll', function() {
+    if (_formEl) {
+      var rect = _formEl.getBoundingClientRect();
+      _stickyBar.style.display = (rect.top < window.innerHeight && rect.bottom > 0) ? 'none' : '';
+    }
+  }, {passive: true});
+}
+</script></body>
+</html>d') {
         gtag('event', 'lead_qualifie', {event_category: 'lead', event_label: 'Saint-Stanislas', event_value: 1});
       }
     }).catch(function() { _form.submit(); });

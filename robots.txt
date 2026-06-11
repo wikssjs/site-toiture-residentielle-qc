@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
 Disallow: /soumission-toiture/
-Crawl-delay: 2
 
 Sitemap: https://soumission-toiture.ca/sitemap-index.xml

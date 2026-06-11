@@ -12,18 +12,37 @@
 <link rel="stylesheet" href="/style.css">
 </head>
 <body id="trpg-918cef8817" class="font-sans antialiased bg-slate-50 text-slate-900">
-<!-- proc-8f32a7 -->
-<!-- tok-8f32a7 -->
-<!-- toiture-8f32a7 -->
-<!-- seq-8f32a7 -->
+<!-- Barre accent couleur -->
+<div class="h-1 w-full" style="background:var(--p6)"></div>
 
-<nav class="bg-white border-b border-slate-200 sticky top-0 z-50">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
-    <a href="/" class="font-black text-xl text-slate-800">Soumission Toiture QC</a>
-    <a href="/" class="px-4 py-2 text-white rounded-full text-sm font-bold transition-colors" style="background:var(--p6)">Devis gratuit</a>
+<nav class="sticky top-0 z-50 bg-white backdrop-blur-xl border-b border-slate-100 shadow-sm">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between" style="height:64px">
+
+    <!-- Logo -->
+    <a href="/">
+      <span class="font-heading font-extrabold text-xl tracking-tight" style="color:var(--p6)">Soumission Toiture QC</span>
+    </a>
+
+    <!-- Right: badge + CTA (desktop only — mobile a sa sticky bar en bas) -->
+    <div class="hidden sm:flex items-center gap-3">
+      <!-- Live badge -->
+      <span class="inline-flex items-center gap-2 text-xs font-bold px-3 py-1.5 rounded-full border"
+            style="background:var(--p05);color:var(--p7);border-color:var(--p2)">
+        <span class="w-2 h-2 rounded-full tr-pulse" style="background:var(--p5)"></span>
+        
+      </span>
+      <!-- CTA button -->
+      <a href="#formulaire" target="_blank" rel="noopener sponsored"
+         class="tr-btn-primary inline-flex items-center gap-2 px-5 py-2.5 text-sm font-bold rounded-xl">
+        
+        <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+        </svg>
+      </a>
+    </div>
+
   </div>
 </nav>
-
 <section class="text-white py-16 sm:py-24" style="background:linear-gradient(135deg,#0f172a 0%,var(--p7,#0369a1) 100%)">
   <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center">
     <nav class="text-sm text-slate-400 mb-6">

@@ -1,1 +1,13 @@
 /soumission-toiture/  https://soumissionrenovation.ca/fr/formulaire/service/toiture-nonmetallique-exbardeaux?landing&steps&utm_campaign=jb  302
+
+# 301s - villes dupliquees dans MUN.csv (meme nom + meme region, page _skip, URL potentiellement indexee)
+/bedford-estrie-05                               /bedford                         301
+/disraeli-chaudiere-appalaches-12                /disraeli                        301
+/hatley-estrie-05                                /hatley                          301
+/hemmingford-monteregie-16                       /hemmingford                     301
+/mistissini-nord-du-quebec-10                    /mistissini                      301
+/natashquan-cote-nord-09                         /natashquan                      301
+/notre-dame-du-bon-conseil-centre-du-quebec-17   /notre-dame-du-bon-conseil       301
+/saint-celestin-centre-du-quebec-17              /saint-celestin                  301
+/senneterre-abitibi-temiscamingue-08             /senneterre                      301
+/stanstead-estrie-05                             /stanstead                       301
